@@ -45,6 +45,7 @@ public class ClimbingGymDbContext: DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         // todo
+        string connectionString = "todo";
         optionsBuilder.UseSqlServer(connectionString);
 
     }
